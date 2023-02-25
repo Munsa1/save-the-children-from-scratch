@@ -7,8 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
-
 /* Reusable Classes */
 
 .app-margin {
@@ -18,8 +16,6 @@
 .d-flex {
   display: flex;
 }
-
-
 
 /* Header Section Styling */
 
@@ -36,8 +32,6 @@
 .header i {
   font-size: 19px;
 }
-
-
 
 /* Intro Section Styling */
 
@@ -61,4 +55,10 @@
   font-size: 18px;
   padding: 5px 10px;
   width: 100%;
+}
+
+.section-container button {
+  color: white;
+  background-color: #f74343;
+  border: none;
 }
