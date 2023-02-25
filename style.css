@@ -6,8 +6,9 @@
 
 body,
 html {
-    /* background-color: #b52c2c; */
+  /* background-color: #b52c2c; */
 }
+
 .header {
   display: flex;
   align-items: center;
