@@ -6,16 +6,25 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body,
-html {
-  /* background-color: #b52c2c; */
+
+
+/* Reusable Classes*/
+
+.app-margin {
+    margin: 0 24px;
 }
 
+.d-flex {
+    display: flex;
+}
+
+
+
+/* Header Section Styling */
+
 .header {
-  display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 24px;
   padding-top: 20px;
 }
 
@@ -25,4 +34,29 @@ html {
 
 .header i {
   font-size: 19px;
+}
+
+
+
+/* Intro Section Styling*/
+
+.introduction {
+    background-image: url('img/White-HD-Desktop-Wallpaper.jpg');
+    text-align: center;
+}
+.introduction img {
+    padding-top: 82px;
+    width: 60%;
+} 
+
+.introduction h1 {
+    font-size: 50px;
+}
+
+.introduction button {
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 100%
 }
