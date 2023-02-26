@@ -79,6 +79,18 @@
   padding-top: 80px;
 }
 
+.services-heading h2 {
+  font-size: 32px;
+}
+
+.services-heading p {
+  margin-top: 12px;
+  font-size: 16px;
+  margin: 0 32px;
+  line-height: 18px;
+  margin-bottom: 16px;
+}
+
 .cards {
   background-image: url('img/15303170_red_wavy_with_halftone_background.jpg');
   background-size: cover;
