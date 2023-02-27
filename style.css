@@ -17,6 +17,51 @@
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
+/* Mobile Menu */
+
+.my-links {
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff0707;
+  z-index: 20;
+  opacity: 0.8;
+}
+
+.my-links i {
+  flex-direction: row;
+  margin-left: 90%;
+  margin-top: 25px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.my-links a {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 32px;
+  margin: 0 24px;
+  padding-bottom: 5px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff080882;
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
 /* Header Section Styling */
 
 .header {
