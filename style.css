@@ -122,8 +122,47 @@
   line-height: 18px;
 }
 
-/* Reusable Card Color */
+/* Reusable Card Color 151e27*/
 
 .background-color {
-  background-color: #151e27;
+  background-color: #03111e;
+}
+
+/* Footer Section Styling*/
+
+.footer {
+  background-image: url('img/footer-bg-3.jpg');
+  background-size: cover;
+}
+
+.footer-container {
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+}
+
+.footer-heading h2 {
+  font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer-heading p {
+  font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+
+.footer-body {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-body i {
+  font-size: 32px;
+}
+
+.footer-body span {
+  margin-bottom: 10px;
 }
