@@ -180,7 +180,7 @@
   margin-bottom: 20px;
   background-color: #d52525;
   padding: 26px 36px;
-  border-radius: 4px;
+  border-radius: 6px;
   color: white;
 }
 
@@ -300,8 +300,9 @@
   }
 
   .card:hover {
+    background-color: #03040de9;
     margin: 30px;
-    transition: margin 1s 0.4s;
+    transition: all 1s 0.4s ease-out;
   }
 
   .footer-body {
