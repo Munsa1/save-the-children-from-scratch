@@ -227,6 +227,8 @@
 .footer-body {
   margin-top: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -256,5 +258,37 @@
 
   .desktop-links a:hover {
     color: #d52525;
+  }
+
+  .introduction {
+    background-image: url("img/rm209-ning-20-e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+  }
+
+  .introduction button {
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 80%;
+    margin-bottom: 200px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .card:hover {
+    margin: 30px;
+  }
+
+  .footer-body {
+    /* display: flex; */
+    flex-direction: column;
   }
 }
