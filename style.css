@@ -189,6 +189,10 @@
   margin-bottom: 20px;
 }
 
+.card a {
+  color: #fff;
+}
+
 .card h3 {
   font-size: 22px;
   font-weight: 900;
