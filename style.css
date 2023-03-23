@@ -23,6 +23,10 @@
 
 /* Mobile Menu */
 
+.desktop-links {
+  display: none;
+}
+
 .header-section {
   position: fixed;
   background: #fff;
@@ -60,9 +64,9 @@
   text-decoration: none;
 }
 
-/* .my-links :hover > a {
-  background-color: #c7ae1f;
-} */
+.link:hover {
+  text-decoration: underline;
+}
 
 .overlay {
   position: fixed;
@@ -232,4 +236,25 @@
 
 .footer-body span {
   margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .fa-bars {
+    display: none;
+  }
+
+  .desktop-links {
+    display: block;
+  }
+
+  .desktop-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 12px;
+  }
+
+  .desktop-links a:hover {
+    color: #d52525;
+  }
 }
