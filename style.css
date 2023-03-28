@@ -176,12 +176,15 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-bottom: 20px;
   background-color: #d52525;
   padding: 26px 36px;
   border-radius: 6px;
   color: white;
+  text-decoration: none;
 }
 
 .card i {
@@ -189,8 +192,14 @@
   margin-bottom: 20px;
 }
 
-.card a {
-  color: #fff;
+.card:hover {
+  background-color: #03040de9;
+  margin: 15px;
+  transition: all 1s 0.4s ease-out;
+}
+
+.card i:hover {
+  color: #d52525;
 }
 
 .card h3 {
@@ -201,6 +210,12 @@
 
 .card p {
   line-height: 18px;
+}
+
+.card:hover {
+  background-color: #03040de9;
+  margin: 15px;
+  transition: all 1s 0.4s ease-out;
 }
 
 /* Reusable Card Color 151e27 */
