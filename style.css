@@ -198,6 +198,10 @@
   transition: all 1s 0.4s ease-out;
 }
 
+.footer-body i {
+  font-size: 32px;
+}
+
 .card i:hover {
   color: #d52525;
 }
@@ -210,12 +214,6 @@
 
 .card p {
   line-height: 18px;
-}
-
-.card:hover {
-  background-color: #03040de9;
-  margin: 15px;
-  transition: all 1s 0.4s ease-out;
 }
 
 /* Reusable Card Color 151e27 */
@@ -253,10 +251,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.footer-body i {
-  font-size: 32px;
 }
 
 .footer-body span {
